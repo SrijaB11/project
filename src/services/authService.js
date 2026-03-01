@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://student-project-portal-backend-1.onrender.com",
+  baseURL: "https://student-project-portal-backend-1.onrender.com/api",
 });
 
 export const registerUser = (data) => API.post("/auth/register", data);
