@@ -35,7 +35,8 @@
 
 import axios from "axios";
 
-const API = "http://localhost:5000/api/projects";
+const API =
+  "https://student-project-portal-backend-1.onrender.com/api/projects";
 
 const getAuthConfig = () => {
   return {
